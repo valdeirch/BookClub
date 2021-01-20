@@ -3,12 +3,13 @@
 This project was made using Google Books API.
 You can see it in https://bookclub-hazel.vercel.app/
 
-#Pages:
-##Home - This page shows the book categories;
+# Pages:
 
-##List - This page shows the selected book categorie or the result of a search;
+## Home - This page shows the book categories;
 
-##Details - This page shows the details of a selected book.
+## List - This page shows the selected book categorie or the result of a search;
+
+## Details - This page shows the details of a selected book.
 
 
 
