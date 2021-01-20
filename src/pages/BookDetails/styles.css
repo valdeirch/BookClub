@@ -1,0 +1,187 @@
+.bookDetailsContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  display: flex;
+  margin: 18px;
+}
+
+p {
+  margin: 0;
+}
+
+.bookImageContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 23px;
+}
+
+.bookImageContainer img {
+  width: 100px;
+  height: 130px;
+  margin-bottom: 28px;
+  box-shadow: 0px 12px 34px rgba(95, 0, 0, 0.5);
+}
+
+.bookImageContainer p {
+  font-size: 14px;
+  color: gray;
+}
+
+.details {
+  width: 100%;
+}
+
+.bookDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: -8px;
+  height: 138px;
+  justify-content: space-between;
+}
+
+.bookDetailsContainer p {
+  text-align: left;
+}
+
+.bookDetailsContainer .title,
+.bookDetailsContainer .priceContainer {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bookDetailsContainer .author {
+  font-size: 14px;
+  color: gray;
+}
+
+.bookDetailsContainer .priceContainer {
+  display: flex;
+  align-items: center;
+}
+
+.bookDetailsContainer .price {
+  display: flex;
+  margin-right: 11px;
+}
+
+.star-ratings {
+  margin-top: -8px;
+}
+
+.buttonsContainer {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4px;
+}
+
+.buttonsContainer .buyButton {
+  height: 36px;
+  width: 116px;
+  border-radius: 36px;
+  border: none;
+  background-color: #4a90e2;
+  color: #fff;
+  margin-right: 8px;
+  box-shadow: 0px 17px 43px -5px #4a90e2;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.buttonsContainer .buyButton {
+  margin-bottom: 7px;
+}
+
+.buttonsContainer .buyButton span {
+  margin-top: -6px;
+}
+
+.buttonsContainer .favoriteButton {
+  padding: 9px;
+  height: 36px;
+  width: 36px;
+  border-radius: 36px;
+  border: none;
+  background-color: #dc4b5d;
+}
+
+.description {
+  margin-top: 1px;
+  flex: 1;
+  display: flex;
+  background-color: white;
+  padding: 27px 18px 18px;
+  text-align: left;
+}
+
+@media screen and (min-width: 424px) {
+  .head {
+    justify-content: center;
+    margin: 18px auto;
+  }
+
+  .bookDetailsContent {
+    max-width: 420px;
+  }
+
+  .bookImageContainer img {
+    width: 120px;
+    height: 156px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .bookImageContainer img {
+    width: 230px;
+    height: 299px;
+  }
+
+  .bookDetailsContent {
+    max-width: 620px;
+    margin: auto;
+  }
+
+  .bookDetailsContainer {
+    height: auto;
+  }
+
+  .priceContainer {
+    margin-top: 80px;
+  }
+
+  .bookDetailsContainer .title,
+  .bookDetailsContainer .priceContainer {
+    font-size: 36px;
+  }
+
+  .buttonsContainer {
+    justify-content: center;
+    margin-top: 62px;
+  }
+
+  .buttonsContainer .buyButton {
+    height: 50px;
+    width: 200px;
+  }
+
+  .buttonsContainer .favoriteButton {
+    height: 50px;
+    width: 50px;
+  }
+
+  .star-container .widget-svg {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .description p {
+    font-size: 20px;
+  }
+}
